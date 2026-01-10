@@ -12,21 +12,21 @@
 
 #include "get_next_line.h"
 
-int ft_strlen (const char *str)
-{ 
-int	i;
+int	ft_strlen(const char *str)
+{
+	int	i;
 
-	if (!s)
+	if (!str)
 		return (0);
 	i = 0;
-	while (s[i])
+	while (str[i])
 		i++;
 	return (i);
 }
 
-char    *ft_strchr(char *s, int c)
+char	*ft_strchr(char *s, int c)
 {
-int	i;
+	int	i;
 
 	if (!s)
 		return (NULL);
@@ -42,9 +42,9 @@ int	i;
 	return (NULL);
 }
 
-char    *ft_strjoin(char *s1, char *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
-char	*new;
+	char	*new;
 	int		i;
 	int		j;
 
