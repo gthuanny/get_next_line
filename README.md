@@ -145,7 +145,7 @@ get_next_line/
 
 ### AI Usage
 
-AI was used as a learning aid to help understand concepts like static variables and file descriptors through explanations and examples. All code implementation and problem-solving was done independently.
+AI was used as a learning aid to help understand concepts like static variables and file descriptors through explanations and examples. All code implementation and problem-solving was done independently. And also used to make this README.md.
 
 ---
 
